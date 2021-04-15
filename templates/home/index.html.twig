@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Symfony + Svelte {% endblock %}
+
+{% block body %}
+
+    <h2>Tasks</h2>
+
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task }}</li>
+        {% endfor %}
+    </ul>
+
+    <div id="svelte-area">
+
+    </div>
+
+{% endblock %}

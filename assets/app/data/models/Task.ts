@@ -1,8 +1,8 @@
 export class Task {
-    id;
-    title;
-    description;
-    isCompleted;
-    createdAt;
-    updatedAt;
+    id: number;
+    title: string;
+    description: string;
+    isCompleted: boolean;
+    createdAt: Date;
+    updatedAt: Date;
 }

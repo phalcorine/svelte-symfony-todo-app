@@ -2,7 +2,7 @@ import {Task} from "../models/Task";
 
 export class TaskFactory {
     static fromJsonArray(data) {
-        const tasks = [];
+        const tasks: Task[] = [];
 
         data.forEach(t => {
             let task = new Task();
